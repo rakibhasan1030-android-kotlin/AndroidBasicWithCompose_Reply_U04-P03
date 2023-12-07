@@ -73,4 +73,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     debugImplementation("androidx.compose.ui:ui-tooling")
 
+    //for calculating window size and set-up adaptive layout accordingly
+    implementation("androidx.compose.material3:material3-window-size-class")
+
 }
